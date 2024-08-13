@@ -1,0 +1,103 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .value {
+    font-size: 4em;
+    font-weight: bold;
+  }
+  
+  .label {
+    font-size: 1.2em;
+  }
+  
+  .location {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+  
+  .title {
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 4em;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 2em;
+    font-weight: normal;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .social a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    background-size: cover;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+  
+  .social a:hover {
+    transform: scale(1.2);
+  }
+  
+  .wall-of-memories {
+    margin-bottom: 50px;
+  }
+  
+  .wall-of-memories button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #121212;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .wall-of-memories button:hover {
+    background-color: #ddd;
+  }
+  
+  #canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
